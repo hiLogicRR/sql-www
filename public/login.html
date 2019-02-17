@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>           
+    </head>
+    <body class="row">
+        <nav>
+            <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="/">Home</a></li>
+                <li><a href="/login">Login</a></li>
+            </ul>
+            </div>
+        </nav>
+        <form action="/login" method="post" style="margin-top: 200px">
+            <div class="col s8 offset-s2">
+                <label class="red-text" style="font-size: 30px">username</label>
+                <input type="text" name="username" />
+                <label class="red-text" style="font-size: 30px">password</label>
+                <input type="text" name="password"/>
+                <div class="center">
+                    <button class="red btn waves-effect waves-light">log in</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
